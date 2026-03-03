@@ -50,7 +50,7 @@ maven { url = uri("https://jitpack.io") }
 
 ```gradle
 dependencies {
-	        implementation 'com.github.Excelsior-Technologies-Community:Android_StringExtensions:1.0.0'
+	        implementation 'com.github.Excelsior-Technologies-Community:Android_AppVersionChecker:1.0.1'
 
 }
 ```
