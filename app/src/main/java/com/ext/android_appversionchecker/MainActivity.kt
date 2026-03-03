@@ -29,13 +29,15 @@ class MainActivity : AppCompatActivity(), VersionCallback {
 
     override fun onSoftUpdate(message: String) {
         UpdateDialog.showSoftDialog(this, message) {
-            versionChecker.openPlayStore()
+            Toast.makeText(this, "Redirecting to update page...", Toast.LENGTH_SHORT).show()
+//            versionChecker.openPlayStore()
         }
     }
 
     override fun onForceUpdate(message: String) {
         UpdateDialog.showForceDialog(this, message) {
-            versionChecker.openPlayStore()
+            Toast.makeText(this, "Force Update Clicked!", Toast.LENGTH_SHORT).show()
+//            versionChecker.openPlayStore()
         }
     }
 
