@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(), VersionCallback {
 
         versionChecker = VersionChecker(
             this,
-            "https://raw.githubusercontent.com/S13reya/Android_AppVersionChecker/stages/version.json",
+            "https://raw.githubusercontent.com/S13reya/Android_AppVersionChecker/refs/heads/stages/version.json",
             this
         )
 
